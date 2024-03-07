@@ -32,16 +32,16 @@
      border: none;
  }
 
- table {
+ .table {
     width: 100%;
     text-align: center;
   }
 
-  th.email {
+  .email {
     text-align: left;
 
   }
   
-  th.login {
+  .login {
     text-align: right;
   }
