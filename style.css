@@ -1,1 +1,37 @@
+h1 {
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+button { 
+    width: 100%; 
+    padding: 15px; 
+    margin: 10px 0px; 
+    border: none; 
+} 
+
+
+form { 
+     border: 3px solid #f1f1f1; 
+ } 
+
+input[type=text], input[type=password] { 
+     width: 100%; 
+     margin: 8px 0;
+     padding: 12px 20px; 
+     display: inline-block; 
+     box-sizing: border-box; 
+ }
+ table {
+    width: 100%;
+    text-align: center;
+  }
+
+  th.email {
+    text-align: left;
+  }
+  
+  th.login {
+    text-align: right;
+  }
