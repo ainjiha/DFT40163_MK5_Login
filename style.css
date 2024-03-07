@@ -1,3 +1,13 @@
+.container {
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 100px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
 h1 {
     color: black;
     text-align: center;
@@ -8,13 +18,9 @@ button {
     width: 100%; 
     padding: 15px; 
     margin: 10px 0px; 
+    background-color: rgb(243, 243, 243);
     border: none; 
 } 
-
-
-form { 
-     border: 3px solid #f1f1f1; 
- } 
 
 input[type=text], input[type=password] { 
      width: 100%; 
@@ -22,7 +28,11 @@ input[type=text], input[type=password] {
      padding: 12px 20px; 
      display: inline-block; 
      box-sizing: border-box; 
+     background-color: rgb(243, 243, 243);
+     border: none;
+
  }
+
  table {
     width: 100%;
     text-align: center;
@@ -30,6 +40,7 @@ input[type=text], input[type=password] {
 
   th.email {
     text-align: left;
+
   }
   
   th.login {
